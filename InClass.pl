@@ -27,7 +27,7 @@ print $program;
 $program =~ s/  +/ /g/;
 print $program;
 
-print "checking import statements";
+print "Checking import statements...";
 $program =~ s/import [a-z]\w*?/IMPORT/g;
 print $program;
 
